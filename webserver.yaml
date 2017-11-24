@@ -2,7 +2,7 @@
 # Create a YAML file with Deployment details
 #Let us now create the webserver.yaml file with the following content
 #______________________________________
-apiVersion: extensions/v1beta1
+apiVersion: apps/v1beta1
 kind: Deployment
 metadata:
   name: webserver
